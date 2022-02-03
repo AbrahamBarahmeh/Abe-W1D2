@@ -301,6 +301,7 @@ GameObject:
   m_Component:
   - component: {fileID: 235750540}
   - component: {fileID: 235750539}
+  - component: {fileID: 235750541}
   m_Layer: 0
   m_Name: abe
   m_TagString: Untagged
@@ -368,13 +369,25 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 235750538}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.7739, y: -4.9056, z: 0}
+  m_LocalPosition: {x: -4.43, y: 4.69, z: 0}
   m_LocalScale: {x: 0.8700451, y: 0.78099805, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &235750541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 235750538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fc87f75bf6c9c14388c08391dd42390, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &691096097
 GameObject:
   m_ObjectHideFlags: 0
